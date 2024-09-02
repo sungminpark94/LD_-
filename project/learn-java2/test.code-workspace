@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../test"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../learn-bootstrap"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "test"
+	}
+}

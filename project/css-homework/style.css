@@ -1,0 +1,225 @@
+/* common */
+button {
+    font-size: 16px;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* 전체 페이지 스타일 */
+  .wrap {
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 헤더 및 네비게이션 */
+  .header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 20px 0;
+    margin: 0;
+  }
+  
+  .nav-button {
+    background: none;
+    border: none;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    color: #007bff;
+  }
+  
+  /* 메인 컨텐츠 */
+  .main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .section {
+    margin-bottom: 60px;
+  }
+  
+  .section-title {
+    color: #007bff;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* 홈 섹션 */
+  .home-section {
+    text-align: center;
+    padding: 60px 0;
+  }
+  
+  .main-title {
+    color: #007bff;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .main-description {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  /* 특징 섹션 */
+  .features-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .feature-item {
+    flex-basis: 30%;
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .feature-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .feature-title {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  /* 요금제 섹션 */
+  .pricing-plans {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .plan {
+    flex-basis: 45%;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .plan:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .plan-title {
+    color: #007bff;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .plan-price {
+    font-size: 1.5em;
+    color: #007bff;
+    margin: 20px 0;
+  }
+  
+  .plan-features {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .plan-feature-item {
+    margin-bottom: 10px;
+  }
+  
+  /* 문의 폼 */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-label {
+    margin-top: 10px;
+  }
+  
+  .form-input,
+  .form-textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .form-textarea {
+    min-height: 100px;
+  }
+  
+  /* CTA 버튼 */
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button.submit-button {
+    margin-top: 20px;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* 푸터 */
+  .footer {
+    background-color: #222;
+    padding: 20px 0;
+    margin-top: 40px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .copyright {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin: 0 10px;
+  }
+  
+  .footer-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
